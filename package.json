@@ -15,5 +15,8 @@
     "@unocss/nuxt": "^0.45.30",
     "ipx": "^0.9.11",
     "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^4.5.14"
   }
 }
