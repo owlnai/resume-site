@@ -19,7 +19,7 @@
             <li>
                 <NuxtLink to="https://owln.ai"
                           class="flex gap-3"
-                          itemprop="sameAs">
+                          itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" >
                     <UnoIcon class="i-carbon-map" />Ávila, Spain
                 </NuxtLink>
             </li>

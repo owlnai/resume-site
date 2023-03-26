@@ -42,32 +42,33 @@ const experiences = [
   <section>
     <h2 class="text-3xl font-bold">Experience</h2>
     <ol class="flex flex-col gap-6 mt-6">
-      <li v-for="experience in experiences" class="bg-white p-6 rounded-xl">
+      <li v-for="experience in experiences" class="bg-white p-6 rounded-xl"  itemscope itemtype="http://schema.org/OrganizationRole">
         <div class="flex flex-col sm:flex-row print:flex-row gap-3">
           <img
             :src="'/companies/' + experience.logo"
             :alt="`${experience.company}'s logo'`"
             height="12"
+            itemprop="image"
             class="w-12 h-full rounded-full"
           />
           <div class="w-full">
             <div class="flex justify-between items-center">
-              <h2 class="text-gray-600 font-medium" itemprop="name">
-                {{ experience.company }}
+              <h2 class="text-gray-600 font-medium" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+            <span itemprop="name"> {{ experience.company }}</span>
               </h2>
-              <span class="text-sm text-gray-500">{{ experience.period }}</span>
+              <span class="text-sm text-gray-500" itemprop="startDate">{{ experience.period }}</span>
             </div>
-            <span class="text-xl block mt-2 sm:mt-0 print:mt-0 font-semibold">{{
+            <span  itemprop="roleName" class="text-xl block mt-2 sm:mt-0 print:mt-0 font-semibold">{{
               experience.position
             }}</span>
           </div>
         </div>
-        <p class="my-2 text-sm text-gray-600">
+        <p class="my-2 text-sm text-gray-600"  itemprop="description">
           {{ experience.description }}
         </p>
-        <div class="prose-sm prose">
+        <div class="prose-sm prose" itemprop="hasOccupation" itemscope itemtype="http://schema.org/Occupation">
           <ul>
-            <li v-for="task in experience.tasks">{{ task }}</li>
+            <li v-for="task in experience.tasks" itemprop="skills">{{ task }}</li>
           </ul>
         </div>
       </li>
