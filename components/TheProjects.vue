@@ -20,7 +20,7 @@ const projects = [{
                 itemscope
                 v-for="project in projects"
                 itemtype="https://schema.org/EducationalOrganization"
-                class="bg-white p-6 rounded-xl">
+                class="bg-white hover:bg-gray-50 border hover:scale-[.98] transition duration-300 p-6 rounded-xl">
 
 
                 <div class="flex gap-3">

@@ -4,21 +4,21 @@
         <ul class="space-y-2">
             <li>
                 <NuxtLink to="mailto:hey@owln.ai"
-                          class="flex gap-3"
+                          class="flex gap-3 hover:translate-x-2 transition duration-300"
                           itemprop="email">
                     <UnoIcon class="i-carbon-email" /> hey@owln.ai
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="https://owln.ai"
-                          class="flex gap-3"
+                          class="flex gap-3 hover:translate-x-2 transition duration-300"
                           itemprop="sameAs">
                     <UnoIcon class="i-carbon-http" />owln.ai
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="https://owln.ai"
-                          class="flex gap-3"
+                          class="flex gap-3 hover:translate-x-2 transition duration-300"
                           itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" >
                     <UnoIcon class="i-carbon-map" />Ávila, Spain
                 </NuxtLink>

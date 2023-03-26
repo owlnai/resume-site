@@ -42,7 +42,7 @@ const experiences = [
   <section>
     <h2 class="text-3xl font-bold">Experience</h2>
     <ol class="flex flex-col gap-6 mt-6">
-      <li v-for="experience in experiences" class="bg-white p-6 rounded-xl"  itemscope itemtype="http://schema.org/OrganizationRole">
+      <li v-for="experience in experiences" class="bg-white hover:bg-gray-50 border hover:scale-[.98] transition duration-300 p-6 rounded-xl"  itemscope itemtype="http://schema.org/OrganizationRole">
         <div class="flex flex-col sm:flex-row print:flex-row gap-3">
           <img
             :src="'/companies/' + experience.logo"

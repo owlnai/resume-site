@@ -12,6 +12,7 @@ useHead({
         <TheIntro />
         <TheDetails />
         <TheSocials />
+        <TheLanguages />
         <TheSkills />
       </div>
       <div class="flex flex-col col-span-2 gap-5">
