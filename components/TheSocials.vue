@@ -24,7 +24,7 @@
                 </NuxtLink>
             </li>
             <li>
-                <NuxtLink to="https://discord.com"
+                <NuxtLink to="https://linkedin.com/in/unaimengual"
                           class="flex gap-3 hover:translate-x-2 transition duration-300"
                           itemprop="sameAs">
                     <UnoIcon class="i-simple-icons-linkedin" /> unaimengual
