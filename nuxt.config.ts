@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
-    "@unocss/nuxt",
-    "@nuxt/image-edge",
+    "@nuxt/fonts",
+    "@nuxtjs/i18n",
+    "@nuxt/content",
+    "@nuxtjs/seo",
   ],
-  experimental: { noScripts: true },
-  css: ["@fontsource/inter/variable.css"],
   app: {
     head: {
       charset: "utf-8",
@@ -20,4 +20,8 @@ export default defineNuxtConfig({
       },
     },
   },
+  devtools: {
+    enabled: true
+  },
+  compatibilityDate: "2024-10-05",
 });
