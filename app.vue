@@ -5,7 +5,7 @@ useHead({
 </script>
 <template>
   <div class="font-serif print:text-sm min-h-screen bg-[#ffffff] print:bg-white">
-    <div class="container max-w-5xl px-8 pt-4 mx-auto"
+    <div class="container max-w-5xl px-8 py-4 mx-auto print:p-0"
          itemscope
          itemtype="https://schema.org/Person">
         <SectionIntro />      

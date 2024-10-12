@@ -1,6 +1,6 @@
 <template>
   <section>
-    <ul class="flex pb-4 my-1 border-b justify-evenly [&_a]:text-blue-700">
+    <ul class="flex pb-4 my-2 border-b justify-evenly [&_a]:text-blue-700">
       <li>
         <NuxtLink to="mailto:hey@owln.ai" itemprop="email">
           unai@owln.ai

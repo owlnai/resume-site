@@ -3,13 +3,13 @@ const educations = [
   {
     degree: "B.S. in Computer Engineering",
     institution: "UCAM",
-    period: "2019 - 2026",
+    period: "2021 - Present (Expected graduation: 2026)",
     location: "Murcia, Spain",
   },
 ];
 </script>
 <template>
-<uiSection title="Education">
+  <uiSection title="Education">
     <ol class="">
       <li
         itemprop="alumniOf"

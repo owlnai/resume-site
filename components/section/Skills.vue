@@ -3,27 +3,29 @@
   "Technical Skills": [
     "Full-stack Development",
     "Cloud Computing",
-    "DevOps",
     "Accessibility",
     "Responsive Design",
     "Performance Optimization"
   ],
-  "Cloud & DevOps": [
-    "Google Cloud Platform",
-    "Docker",
-    "CI/CD",
-    "Git"
+  "Languages": [
+    "Spanish (Native)",
+    "English (C1)"
   ],
-  "Databases": [
-    "PostgreSQL",
-    "Firebase",
-    "BigQuery SQL"
+  "Frameworks/Libraries": [
+    "Vue.js",
+    "Angular",
+    "Nuxt",
+    "Node.js",
+    "Express",
+    "Tailwind CSS",
+    "Vitest",
   ],
   "Methodologies": [
     "Agile",
     "Scrum",
     "Kanban",
-    "Test-Driven Development (TDD)"
+    "TDD",
+    "BDD"
   ],
   "Soft Skills": [
     "Problem Solving",
@@ -31,7 +33,16 @@
     "Cross-functional Collaboration",
     "Technical Writing",
     "Speaking"
-  ]
+  ],
+  "Others": [
+    "PostgreSQL",
+    "Firebase",
+    "Supabase",
+    "Docker",
+    "Google Cloud Platform",
+    "WebAssembly",
+    "Figma"
+  ],
 };
 </script>
 <template>
