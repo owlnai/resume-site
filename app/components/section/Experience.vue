@@ -18,7 +18,7 @@ const experiences = [
       {
         name: "Parques Reunidos",
         tasks: [
-          "Led the migration of a major client's platform to a microservices architecture, reducing deployment time by 50% and improving system reliability.",
+          "Led the migration of a major client's platform to a microservices architecture, reducing processing times and improving system reliability.",
         ],
       },
     ],
