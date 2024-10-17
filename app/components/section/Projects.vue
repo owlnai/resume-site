@@ -6,9 +6,9 @@ const projects = [
       "A website to track the progress of Nuxt 3 modules. Tracking over a hundred modules and its compatibility, it was later integrated into the official Nuxt documentation.",
   },
   {
-    title: "Trello Board",
+    title: "Slidev Spanish docs",
     description:
-      "I actually didn't make this but I want to remind @afor_digital that never gonna give you up, never gonna let you down, never gonna run around and desert you.",
+      "Spanish translation of the Slidev documentation. Slidev is a presentation tool built with Vue 3.",
   },
 ];
 </script>
