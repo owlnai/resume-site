@@ -13,14 +13,14 @@ const experiences = [
     ],
     clients: [
       {
-        name: "L'Oréal",
+        name: "Global beauty brand (client)",
         tasks: [
           "Developed robust, scalable solutions meeting stringent client security requirements.",
           "Optimized database queries and modernized legacy code, improving application performance by 40% and reducing server load by 25%.",
         ],
       },
       {
-        name: "Parques Reunidos",
+        name: "Leisure and theme park operator (client)",
         tasks: [
           "Led the migration of a major client's platform to a microservices architecture, using Python and pandas for data processing, reducing processing times and improving system reliability.",
         ],
