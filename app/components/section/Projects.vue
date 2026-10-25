@@ -3,7 +3,7 @@ const projects = [
   {
     title: "Is Nuxt 3 Ready?",
     description:
-      "A website to track the progress of Nuxt 3 modules. Tracking over a hundred modules and its compatibility, it was later integrated into the official Nuxt documentation.",
+      "A website to track the progress of Nuxt 3 modules. Tracking over a hundred modules and its compatibility, it inspired the Nuxt team's own module compatibility tracking, which I helped with.",
   },
   {
     title: "Slidev Spanish docs",

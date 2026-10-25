@@ -7,18 +7,22 @@ const experiences = [
     location: "Madrid, Spain",
     description:
       "A modern marketing agency that grows meaningful relationships with people through the power of data, strategy, creativity and technology.",
+    tasks: [
+      "Lead client projects end to end, propose architecture changes and mentor trainees.",
+      "Day-to-day stack: Vue, Nuxt, Nitro, Node.js, Playwright, Firebase and monorepos.",
+    ],
     clients: [
       {
-        name: "L'Oréal",
+        name: "Global beauty brand (client)",
         tasks: [
           "Developed robust, scalable solutions meeting stringent client security requirements.",
           "Optimized database queries and modernized legacy code, improving application performance by 40% and reducing server load by 25%.",
         ],
       },
       {
-        name: "Parques Reunidos",
+        name: "Leisure and theme park operator (client)",
         tasks: [
-          "Led the migration of a major client's platform to a microservices architecture, reducing processing times and improving system reliability.",
+          "Led the migration of a major client's platform to a microservices architecture, using Python and pandas for data processing, reducing processing times and improving system reliability.",
         ],
       },
     ],

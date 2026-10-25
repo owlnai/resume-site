@@ -1,7 +1,7 @@
 <template>
   <uiSection title="Professional Summary">
     <p class="max-w-full prose-sm prose text-black" itemprop="description">
-      Full Stack Developer with a proven track record of developing scalable, high-performance web applications and optimizing existing systems. Seeking a remote full-time position to leverage my expertise in modern web technologies and contribute to cutting-edge projects.
+      Full-stack developer (Vue, Nuxt, Node.js) with 6+ years of experience across agency, freelance and startup work. I lead projects, propose architecture changes and mentor junior developers. I led a client platform migration to microservices and built Is Nuxt 3 Ready, a Nuxt module compatibility tracker that inspired the Nuxt team's own tracking. Seeking a remote full-time position.
     </p>
   </uiSection>
 </template>
