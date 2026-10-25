@@ -19,6 +19,8 @@
     "Express",
     "Tailwind CSS",
     "Vitest",
+    "Nitro",
+    "Playwright",
   ],
   "Methodologies": [
     "Agile",
@@ -35,6 +37,8 @@
     "Speaking"
   ],
   "Others": [
+    "Python (pandas)",
+    "Monorepos",
     "PostgreSQL",
     "Firebase",
     "Supabase",
